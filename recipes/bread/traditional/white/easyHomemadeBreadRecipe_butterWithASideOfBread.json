@@ -69,7 +69,11 @@
             "value": 6,
             "unit":"cup"
         },
-        
+        {
+            "name": "dough enhancer",
+            "value": 4,
+            "unit":"teaspoon"
+        }
     ],
     "instructions":[
         {
