@@ -1,0 +1,8 @@
+schema {
+    name: String!
+    description: String
+    source: Source!
+    ingredients: [Ingredient!]!
+    instructions: [String!]!
+    yield: String
+}

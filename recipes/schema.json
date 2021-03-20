@@ -1,0 +1,8 @@
+{
+    "name":"",
+    "description":"",
+    "source":{},
+    "ingredients":[],
+    "instructions":string[],
+    "yield": "string"
+}
