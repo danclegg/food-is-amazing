@@ -1,8 +1,31 @@
 schema {
-    name: String!
-    description: String
-    source: Source!
-    ingredients: [Ingredient!]!
-    instructions: [String!]!
-    yield: String
+    type Recipe: {
+        name: String!
+        description: String
+        cuisine: String
+        calories: Yield,
+        source: Source!
+        time: [Measure!]!
+        ingredients: [Measure!]!
+        instructions: [String!]!
+        yield: Yield
+    }
+    type Source: { 
+        name: String!
+        url: String!
+        date: Date  (ISO-8601 UTC)
+    }
+    type Instruction: {
+        id: Integer!
+        text: String!
+    }
+    type Yield: {
+        quantity: Float!
+        unit: String!
+    }
+    type Measure: {
+        name: String!
+        quantity: Float!
+        unit: String!
+    }
 }

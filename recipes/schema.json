@@ -1,8 +1,29 @@
 {
     "name":"",
     "description":"",
-    "source":{},
-    "ingredients":[],
-    "instructions":string[],
-    "yield": "string"
+    "source":{
+        "name":"",        
+        "url":"",
+        "date": "YYYYMMDDTHHmmssZ (ISO-8601 UTC)"
+    },
+    "time":[{
+        "name": "",
+        "value":0.0,
+        "unit":""
+    }],
+    "ingredients":[{
+        "name": "",
+        "value":0.0,
+        "unit":""
+    }],
+    "instructions":[
+        {
+            "id": 0,
+            "text": ""
+        }
+    ],
+    "yield": {
+        "value":0,
+        "unit":""
+    },
 }
